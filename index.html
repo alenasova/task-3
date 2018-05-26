@@ -8,25 +8,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class="page">
+    <body>
         <header>
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li><a href="#settings">Settings</a></li>
-                        <li><a href="#account">Account</a></li>
-                        <li><a href="#messages">Messages</a></li>
-                        <li><a href="#favorites">Favorites</a></li>
-                        <li><a href="#me" class="right">Me</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <div class="menu-settings"><img src="settings.png" height="30px"><span>Settings</span></div>
+            <div class="menu-account"><img src="account.png" height="30px"><span>Account</span></div>
+            <div class="menu-messages"><img src="mail-new.png" height="30px"><span>Messages</span><div class="red-circle"><span>5</span></div></div>
+            <div class="menu-favorites"><img src="Star_gray.png" height="30px"><span>Favorites</span></div>
+            <div class="menu-empty"></div>
+            <div class="menu-me"><span>Me</span><img src="mark.png" height="30px"><div class="avatar"><img src="avatar.jpg" height="50px"></div></div>
         </header>
-        <div class="main">
-                <div class="container"></div>
+        <div class="container">
+                <div class="left">
+                    <div class="left-menu-box"><span>MENU BOX</span></div>
+                    <div class="left-messages"><span>Messages</span></div>
+                    <div class="left-invites"><span>Invites</span></div>
+                    <div class="left-events"><span>Events</span></div>
+                    <div class="left-account-settings"><span>Account settings</span></div>
+                    <div class="left-statistics"><span>Statistics</span></div>
+                </div>
+                <div class="center">
+                        <div class="center-foto">
+                            <div class="big-foto"><img src="avatar.jpg" height="120px"></div>
+                            <div><h2>Ann Hathaway</h2></div>
+                            <div class="text-foto-bottom"><span>Абра-кадабра-швабра</span></div>
+                        </div>
+                        <div class="center-color-red"><span>23</span></div>
+                        <div class="center-color-green"><span>841</span></div>
+                        <div class="center-color-yellow"><span>49</span></div>            
+                </div>
+                <div class="right">
+                        <div class="subscribe">
+                                <div class="form">
+                                        <form id="signup">
+                                            <h3>JOIN&nbspTHE&nbspNEWSLETTER</h3>
+                                            <input type="email" placeholder="yourname@gmail.com" required="" class="email-form">			
+                                            <button type="submit" class="subscribe-button"><span>SUBSCRIBE</span></button>	
+                                        </form>
+                                </div>
+                </div>
         </div>
         <footer>
-                <div class="container"></div>
+            <div class=""></div>
         </footer>
     </body>
 </html>

@@ -2,49 +2,247 @@ body {
     background-color: #1F253d;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    /*align-items: center; */
 }   
 header{
-    width: 80%;
-    height: 100px;
-    background-color: #394165;
+    width: 1000px;
+    height: 120px;
     position: absolute;
     top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    background-color: #394165;
+    text-align: justify;
+    border-radius: 10px;
+    
 }
-.container {
-    width: 100%;
-    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.container:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-nav {
+.menu-settings {
+    position: relative;
+    padding: 35px 20px 10px 20px;
+    height: 100px;
     float: left;
-    margin: 0;
-    padding: 0;
+    
 }
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+ .menu-account {
+    position: relative;
+    padding: 35px 20px 10px 20px;
+    float: left;
+    text-align: justify;
+ }
+ .menu-account:hover {
+    background-color: #4a5072;
+    border-bottom: solid 3px turquoise;
+    height: 75px;
+   }
+ .menu-messages {
+    position: relative;
+    padding: 35px 20px 10px 20px;
+    float: left;
+    height: 100px;
+    text-align: justify;
 }
-nav li {
-    display: inline-block; /*один из способов разместить элементы в строку*/
-    margin: 30px;
-    padding: 10px;
+ .menu-favorites { 
+    position: relative;
+    padding: 35px 20px 10px 20px;
+    float: left;
+    height: 100px;
+    text-align: justify;
 }
-nav a {
-    text-decoration: none;
-    line-height: 38px;
+ .menu-empty {
+    position: relative;
+    padding: 35px 20px 10px 20px;
+    float: right;
+       
+}
+ .menu-me {
+    position: relative;
+    padding: 35px 10px 10px 20px;
+    float: right;
+    height: 100px;
+    text-align: justify;
+ }
+span {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    outline: none;   
+    font-size: 15px;
+    display: inline-block;
+    margin: 10px;
 }
+h2 {
+    color: white;
+    font: bold 20px Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 10px;
+}
+h3 {
+    color: white;
+    font: 15px Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0px;
+}
+.red-circle {
+    position: relative;
+    border-radius: 50%;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    top: -3px;
+    right: 7px;
+    display: inline-block;   
+} 
+.avatar {
+    float: right;
+    padding-left: 0px;
+    border-radius: 50%;
+    border: solid 3px gray;  
+}                                                        
+.container {
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    top: 250px;
+    text-align: justify;
+    justify-content: center;
+    
+} 
+.left {
+    position: relative;
+    float: left;
+    height: 300px;
+    width: 320px;
+    padding: 0px 0px 0px 0px;
+}  
+.center {
+    float: left;
+    height: 300px;
+    width: 320px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    margin-left: 30px;
+    
+    
+}    
+.right {
+    float: right;
+    height: 300px;
+    width: 300px;
+    padding: 0px 0px 0px 0px;
+}  
+.left-menu-box {
+    background-color: #10a8ab;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 10px 0px 70px;
+    border-bottom: solid 1px #1F253d;
+    
+}
+.left-messages {
+    background-color: #394165;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    border-bottom: solid 1px #1F253d;
+    
+} .left-invites {
+    background-color: #4a5072;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    border-bottom: solid 1px #1F253d;
+    
+}   
+.left-events {
+    background-color: #394165;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    border-bottom: solid 1px #1F253d;
+    
+}  
+.left-account-settings {
+    background-color: #394165;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    border-bottom: solid 1px #1F253d;
+}
+.left-statistics {
+    background-color: #394165;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    border-bottom: solid 1px #1F253d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+        
+}
+.center-foto {
+    background-color: #394165;
+    height: 330px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 10px 0px 70px;
+    border-bottom: solid 1px #1F253d;
+}
+.center-color-red {
+    float: left;
+    background-color: #394165;
+    height: 60px;
+    width: 110px;
+    border-bottom-left-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    border-top: solid 2px red;
+    border-right: solid 1px #1F253d;
+}
+.center-color-green {
+    display: inline-block;
+    background-color: #394165;
+    height: 60px;
+    width: 98px;
+    padding: 0px 0px 0px 0px;
+    border-top: solid 2px #10a8ab;
+    border-right: solid 1px #1F253d;
+}
+.center-color-yellow {
+    float: right;
+    background-color: #394165;
+    height: 60px;
+    width: 110px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    border-top: solid 2px yellow;
+}
+.big-foto {
+    position: relative;
+    padding: 35px 20px 30px 20px;
+    height: 100px;
+    float: left;
+ }
+ .text-foto-bottom {
+    padding: 20px 0px 0px 20px;
+    text-align: justify;
+ }    
+ .subscribe {
+    background-color: #394165;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 20px 20px 70px;
+    border-bottom: solid 1px #1F253d; 
+    margin-left: 0px;
+    margin-right: auto;
+ }                               
+.subscribe-button {
+    background-color: #10a8ab;
+    height: 50px;
+    margin: 10px;
+    padding: 0px 15px;
+    border: solid 1px #394165;
+    border-radius: 5px;
+}                                                               
+.email-form {
+    height: 30px;
+    margin: 20px -25px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    border: solid 2px #10a8ab;
+    border-radius: 10px;
+    background-color: #4a5072;
+}                                                                                                                                            
