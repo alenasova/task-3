@@ -88,6 +88,10 @@ h3 {
     right: 7px;
     display: inline-block;   
 } 
+.five {
+    display: flex;
+    
+}
 .avatar {
     float: right;
     padding-left: 0px;
@@ -141,13 +145,19 @@ h3 {
     padding: 10px 10px 0px 10px;
     border-bottom: solid 1px #1F253d;
     
-} .left-invites {
+} 
+.left-invites {
+    background-color: #394165;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    border-bottom: solid 1px #1F253d;
+}   
+.left-invites:hover {
     background-color: #4a5072;
     height: 50px;
     padding: 10px 10px 0px 10px;
     border-bottom: solid 1px #1F253d;
-    
-}   
+}
 .left-events {
     background-color: #394165;
     height: 50px;
