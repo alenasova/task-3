@@ -86,11 +86,14 @@ h3 {
     height: 20px;
     top: -3px;
     right: 7px;
-    display: inline-block;   
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 } 
 .five {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 .avatar {
     float: right;
@@ -241,6 +244,7 @@ h3 {
 .subscribe-button {
     background-color: #10a8ab;
     height: 50px;
+    width: 150px;
     margin: 10px;
     padding: 0px 15px;
     border: solid 1px #394165;
@@ -255,4 +259,177 @@ h3 {
     border: solid 2px #10a8ab;
     border-radius: 10px;
     background-color: #4a5072;
-}                                                                                                                                            
+}
+.sign-in {
+    background-color: #394165;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 20px 20px 70px;
+    border-bottom: solid 1px #1F253d; 
+    margin-top: 30px;
+} 
+.sign-in-button {
+    background-color: rgb(151, 34, 34);
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    padding: 0px 15px;
+    border: solid 1px #394165;
+    border-radius: 5px;
+} 
+.password-form {
+    height: 30px;
+    margin: 20px -25px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    border: solid 2px #4a4d4d;
+    border-radius: 10px;
+    background-color: #4a5072;
+}
+.form {
+    height: 250px;
+    width: 280px;
+    padding: 10px 10px 0px 10px;
+    background-color: rgb(76, 233, 84);
+}
+.forgot-password {
+    height: 50px;
+    width: 280px;
+    padding: 10px 10px 0px 10px;
+    background-color: rgb(233, 76, 141);
+}
+.sign-in-facebook {
+    height: 50px;
+    width: 280px;
+    padding: 10px 10px 0px 10px;
+    background-color: rgb(14, 50, 192);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}   
+.download-upload {
+    background-color: #394165;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 20px 20px 70px;
+    border-bottom: solid 1px #1F253d; 
+    margin-left: 0px;
+    margin-right: auto;
+} 
+.download {
+
+} 
+.upload {
+
+} 
+.download-pic {
+    display: inline-block;
+
+}    
+.upload-pic {
+
+}  
+.download-pic-green {
+    width: 70px;
+    height: 20px;
+    background: #10a8ab;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}  
+.download-pic-gray {
+    width: 50px;
+    height: 20px;
+    background: #4a5072;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+} 
+.upload-pic-blue {
+    background: #63d7fa;
+    width: 50px;
+    height: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.upload-pic-gray {
+    background: #4a5072;
+    width: 70px;
+    height: 20px;
+    background: #4a5072;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}  
+.wednesday {
+    background-color: #394165;
+    height: 330px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 10px 0px 70px;
+    border-bottom: solid 1px #1F253d;
+}
+.top-wednesday {
+
+}   
+.date {
+
+}   
+.calendar {
+
+}   
+.top-calendar {
+
+}
+.left-circle {
+    background-color: #394165;
+    height: 330px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 10px 0px 70px;
+    border-bottom: solid 1px #1F253d;
+}
+.left-color {
+
+}
+.left-color-red {
+    float: left;
+    background-color: #394165;
+    height: 60px;
+    width: 80px;
+    border-bottom-left-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    border-top: solid 2px red;
+    border-right: solid 1px #1F253d;
+}
+.left-color-green {
+    float: left;
+    background-color: #394165;
+    height: 60px;
+    width: 77px;
+    padding: 0px 0px 0px 0px;
+    border-right: solid 1px #1F253d;
+    border-top: solid 2px #10a8ab;
+}
+.left-color-yellow {
+    display: inline-block;
+    background-color: #394165;
+    height: 60px;
+    width: 70px;
+    padding: 0px 0px 0px 0px;
+    border-top: solid 2px yellow;
+}
+.left-color-blue {
+    float: right;
+    background-color: #394165;
+    height: 60px;
+    width: 90px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    border-top: solid 2px #63d7fa;
+}
+
+
