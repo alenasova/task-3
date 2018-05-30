@@ -79,6 +79,7 @@ h3 {
 } 
 .column {
     flex: 1;
+    width: 310px;
     flex-direction: column;
     display: flex;
     margin-right: 2em;
@@ -122,7 +123,7 @@ h3 {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     margin-top: 30px;
     border-bottom: solid 1px #1F253d;
     display: inline-block;
@@ -130,10 +131,9 @@ h3 {
 }
 .audience {
     position: relative;
-    text-align: center;
     padding: 0px 0px 0px 0px;
-    margin: 30px;
-    border: solid 5px red;
+    margin: 20px;
+    border: solid 5px rgb(38, 201, 86);
     height: 100px;
     display: flex;
     justify-content: center;
@@ -145,7 +145,7 @@ h3 {
     border-radius: 50%;
     width: 120px;
     height: 120px;
-    border: solid 10px red;
+    border: solid 10px rgb(44, 230, 106);
     margin-bottom: 30px;
 }
 .june {
@@ -206,38 +206,39 @@ h3 {
     padding: 0px 0px 0px 0px;
     border-bottom: solid 1px #1F253d;
     margin-top: 100px;
-    
 }
-.chart-img {
-   height: 150px;
-   background: turquoise;
-   border: solid 2px #4a5072; 
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
-   /*box-shadow:  inset -5px -1px 2px 1px white,
-                inset -10px -3px 2px 1px rgb(214, 113, 113),
-                inset 5px 7px 0px 7px rgb(49, 236, 65),
-                inset 2px 0px 0px 8px rgb(85, 176, 236),
-                inset 1px 0px 0px 10px rgb(146, 58, 58),
-                inset 5px 0px 0px 12px rgb(190, 15, 15),
-                inset 8px 0px 0px 14px rgb(148, 126, 126);*/
+.chart-img img{
+    height: 195px;
+    background: turquoise;
+   /*border: solid 2px #4a5072; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .chart-buttons {
     display: flex;
     height: 150px;
+    justify-content: center;
+    align-items: center; 
 }
-.chart-button {
-    
-    height: 25px;
+button {
+    height: 35px;
     width: 70px;
     background: #4a5072;
     padding: 10px;
-    margin: 20px 10px;
+    margin: 0px 10px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center; 
-
+    white-space: nowrap; 
+    color: white;
+    border: solid 0.5px rgb(195, 195, 197);  
+}
+button:active {
+    border: none;
 }
 .red-block {
     background: #eb5461;
