@@ -3,77 +3,46 @@ body {
     display: flex;
     justify-content: center;
     /*align-items: center; */
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }   
 header{
     width: 1000px;
-    height: 120px;
+    height: 100px;
     position: absolute;
     top: 100px;
     background-color: #394165;
-    text-align: justify;
+    display: flex;
+    justify-content: space-between;
     border-radius: 10px;
-    
 }
-.menu-settings {
-    position: relative;
-    padding: 35px 20px 10px 20px;
-    height: 100px;
-    float: left;
-    
+.top-menu-items {
+    display: flex;
 }
- .menu-account {
-    position: relative;
-    padding: 35px 20px 10px 20px;
-    float: left;
-    text-align: justify;
- }
- .menu-account:hover {
+.top-menu-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.top-menu-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.top-menu-item:hover {
     background-color: #4a5072;
-    border-bottom: solid 3px turquoise;
-    height: 75px;
-   }
- .menu-messages {
-    position: relative;
-    padding: 35px 20px 10px 20px;
-    float: left;
-    height: 100px;
-    text-align: justify;
-}
- .menu-favorites { 
-    position: relative;
-    padding: 35px 20px 10px 20px;
-    float: left;
-    height: 100px;
-    text-align: justify;
-}
- .menu-empty {
-    position: relative;
-    padding: 35px 20px 10px 20px;
-    float: right;
-       
-}
- .menu-me {
-    position: relative;
-    padding: 35px 10px 10px 20px;
-    float: right;
-    height: 100px;
-    text-align: justify;
- }
-span {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    display: inline-block;
-    margin: 10px;
+    box-shadow: inset 0 -4px turquoise;
+    cursor: help;
 }
 h2 {
-    color: white;
     font: bold 20px Arial, Helvetica, sans-serif;
     display: inline-block;
     margin: 10px;
 }
 h3 {
-    color: white;
     font: 15px Arial, Helvetica, sans-serif;
     display: inline-block;
     margin: 0px;
@@ -84,105 +53,134 @@ h3 {
     background-color: red;
     width: 20px;
     height: 20px;
-    top: -3px;
-    right: 7px;
+    top: -10px;
+    right: -5px;
     display: flex;
     justify-content: center;
     align-items: center;  
 } 
-.five {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .avatar {
     float: right;
-    padding-left: 0px;
-    border-radius: 50%;
-    border: solid 3px gray;  
-}                                                        
-.container {
+    border-radius: 30px; 
+} 
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 7px #4a5072; 
+}                                                       
+.columns {
     width: 1000px;
     height: 400px;
     position: absolute;
-    top: 250px;
-    text-align: justify;
-    justify-content: center;
-    
+    top: 230px;
+    display: flex;
+
 } 
-.left {
-    position: relative;
-    float: left;
-    height: 300px;
-    width: 320px;
-    padding: 0px 0px 0px 0px;
-}  
-.center {
-    float: left;
-    height: 300px;
-    width: 320px;
-    padding: 0px 0px 0px 0px;
+.column {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    margin-right: 2em;
+
+}
+.left-menu {
+
     display: inline-block;
-    margin-left: 30px;
-    
-    
-}    
-.right {
-    float: right;
-    height: 300px;
-    width: 300px;
-    padding: 0px 0px 0px 0px;
-}  
-.left-menu-box {
+    background-color: #394165;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} 
+.left-menu-top-part {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background-color: #10a8ab;
     height: 50px;
+    border-bottom: solid 2px #1F253d; 
+    padding: 10px 10px 0px 10px;  
+}
+.left-menu-items {
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    border-bottom: solid 2px #1F253d; 
+} 
+.left-menu-items:hover {
+    background-color: #4a5072;
+    height: 50px;
+    /*padding: 10px 10px 0px 10px;*/
+    border-bottom: solid 2px #1F253d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.left-circle {
+    background-color: #394165;
+    height: 330px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 10px 10px 0px 70px;
     border-bottom: solid 1px #1F253d;
-    
 }
-.left-messages {
-    background-color: #394165;
-    height: 50px;
-    padding: 10px 10px 0px 10px;
-    border-bottom: solid 1px #1F253d;
-    
-} 
-.left-invites {
-    background-color: #394165;
-    height: 50px;
-    padding: 10px 10px 0px 10px;
-    border-bottom: solid 1px #1F253d;
-}   
-.left-invites:hover {
-    background-color: #4a5072;
-    height: 50px;
-    padding: 10px 10px 0px 10px;
-    border-bottom: solid 1px #1F253d;
+.left-color-blocks {
+display: flex;
 }
-.left-events {
+.left-color-block {
+    flex: 1;
     background-color: #394165;
-    height: 50px;
-    padding: 10px 10px 0px 10px;
-    border-bottom: solid 1px #1F253d;
-    
-}  
-.left-account-settings {
-    background-color: #394165;
-    height: 50px;
-    padding: 10px 10px 0px 10px;
-    border-bottom: solid 1px #1F253d;
 }
-.left-statistics {
-    background-color: #394165;
-    height: 50px;
-    padding: 10px 10px 0px 10px;
-    border-bottom: solid 1px #1F253d;
+.left-color-red {
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-        
+    border-top: solid 2px red;
+    border-right: solid 1px #1F253d;
 }
+.left-color-green {
+    border-right: solid 1px #1F253d;
+    border-top: solid 2px #10a8ab;
+}
+.left-color-yellow {
+    border-top: solid 2px yellow;
+    border-right: solid 1px #1F253d;
+}
+.left-color-blue {
+    border-bottom-right-radius: 10px;
+    border-top: solid 2px #63d7fa;
+}
+.chart {
+    display: inline-block
+}
+.chart-img {
+   height: 70px;
+   background: turquoise;
+   border: solid 2px #4a5072; 
+   
+}
+.chart-blocks {
+    display: flex;
+}
+.chart-block {
+    flex: 1;
+    height: 30px;
+    width: 70px;
+    background: #4a5072;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.red-block {
+    background: #eb5461;
+    
+}
+
+
+
+
+
+
+
+
+
 .center-foto {
     background-color: #394165;
     height: 330px;
@@ -228,7 +226,19 @@ h3 {
  .text-foto-bottom {
     padding: 20px 0px 0px 20px;
     text-align: justify;
- }    
+ }  
+ 
+ 
+
+
+
+
+
+
+
+
+
+
  .subscribe {
     background-color: #394165;
     height: 200px;
@@ -384,52 +394,4 @@ h3 {
 .top-calendar {
 
 }
-.left-circle {
-    background-color: #394165;
-    height: 330px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 10px 10px 0px 70px;
-    border-bottom: solid 1px #1F253d;
-}
-.left-color {
-
-}
-.left-color-red {
-    float: left;
-    background-color: #394165;
-    height: 60px;
-    width: 80px;
-    border-bottom-left-radius: 10px;
-    padding: 0px 0px 0px 0px;
-    border-top: solid 2px red;
-    border-right: solid 1px #1F253d;
-}
-.left-color-green {
-    float: left;
-    background-color: #394165;
-    height: 60px;
-    width: 77px;
-    padding: 0px 0px 0px 0px;
-    border-right: solid 1px #1F253d;
-    border-top: solid 2px #10a8ab;
-}
-.left-color-yellow {
-    display: inline-block;
-    background-color: #394165;
-    height: 60px;
-    width: 70px;
-    padding: 0px 0px 0px 0px;
-    border-top: solid 2px yellow;
-}
-.left-color-blue {
-    float: right;
-    background-color: #394165;
-    height: 60px;
-    width: 90px;
-    border-bottom-right-radius: 10px;
-    padding: 0px 0px 0px 0px;
-    border-top: solid 2px #63d7fa;
-}
-
 
