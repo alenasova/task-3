@@ -6,8 +6,10 @@ body {
     color: azure;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    /*width: 1160px;*/
 } 
 header{
+    /*width: 940px;*/
     width: 1000px;
     height: 100px;
     position: absolute;
@@ -90,12 +92,27 @@ h3 {
 .left-menu-block {
 
     display: inline-block;
-    background-color: #394165;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 } 
+.ellipse {
+    position: absolute;
+    left: 250px;
+    border-radius: 10px;
+    background: #4a5072;
+    height: 20px;
+    width: 35px;
+}
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red {
+    background-color: #e64c65;
+}
 .left-menu-top-part {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -110,17 +127,20 @@ h3 {
 .left-menu-items {
     height: 50px;
     padding: 0px 10px 0px 10px;
-    border-top: solid 1px #1F253d; 
+    margin-top: 1px;
     display: flex;
     align-items: center;
+    background-color: #394165;
 } 
+.left-menu-items img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
 .left-menu-items:hover {
     background-color: #4a5072;
     height: 50px;
-    /*padding: 10px 10px 0px 10px;*/
-    border-top: solid 1px #1F253d;
-    /*border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;*/
 }
 .left-item-bottom {
     border-bottom-left-radius: 10px;
@@ -142,7 +162,6 @@ h3 {
     padding: 0px 0px 0px 0px;
     margin-top: 30px;
     border-bottom: solid 1px #1F253d;
-    display: inline-block;
     
 }
 .audience {
@@ -155,27 +174,40 @@ h3 {
     align-items: center;
     justify-content: center;
 }
-.circle-block {
+.diagram {
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 250px;
 }
-.color-circle {
+.outer-circle {
     border-radius: 50%;
-    /*margin-bottom: 30px;*/
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    width: 120px;
-    height: 120px;
-    border: solid 20px rgb(38, 201, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 0px rgb(38, 201, 86);
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    background-image:                                           
+                      linear-gradient(305deg, #15a6a9 50%, transparent 50%),
+                      linear-gradient(315deg, #15a6a9 50%, transparent 50%),
+                      linear-gradient(60deg, #50c3f9 50%, transparent 50%),
+                      linear-gradient(80deg, #f6aa48 50%, transparent 50%),
+                      linear-gradient(180deg, #e64c66 50%, transparent 50%);
+}
+.inner-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #394264;
 }
 .june {
     font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 
 }
 .year {
@@ -184,19 +216,17 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px;
 }
 .left-color-blocks {
     display: flex;
+    margin-top: 30px;
 }
 .left-color-block {
     background-color: #394165;
     height: 80px;
     width: 25%;
     /*background-color: #1fec86;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     padding: 0px 0px 0px 0px;
 }
 .left-color-red {
@@ -216,6 +246,29 @@ h3 {
     border-bottom-right-radius: 10px;
     border-top: solid 3px #63d7fa;
 }
+.os {
+    color: gray;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+}
+.os-percent {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
 .chart {
     display: inline-block;
     /*position: relative;*/
@@ -455,10 +508,19 @@ button:hover {
     padding: 0px 0px 0px 0px;
     border-top: solid 2px yellow;
 }
+.icon-mini {
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+
 .forecast {
 /*сам блок*/
     margin-top: 30px;
-    background: rgb(110, 135, 247);
+    background: #1f253d;
     /*height: 580px;*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -479,14 +541,29 @@ button:hover {
 }
 .weather-today {
     background-color: #e64c66;
-    height: 150px;
     padding: 0px 0px 0px 0px;  
     color: white;
+}
+.date {
+    font-size: 15px;
+    padding: 20px 20px 0px 70px;
+}
+.weather {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 30px 0px;
+}
+.weather img{
+    height: 70px;
+    padding-left: 30px;
+   
 }
 .week {
     height: 50px;
     padding: 0px 0px 0px 10px;
-    border-top: solid 1px #1F253d; 
+    margin-top: 1px;
     background-color: #394165;
     display: flex;
     align-items: center;
@@ -494,9 +571,7 @@ button:hover {
 .week:hover {
     background-color: #4a5072;
     height: 50px;
-    /*padding: 10px 10px 0px 10px;*/
-    border-top: solid 1px #1F253d;
-   
+    /*padding: 10px 10px 0px 10px;*/  
 }
 .weekend {
     border-bottom-left-radius: 10px;
@@ -647,25 +722,43 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;  
- }                               
-.subscribe-button {
-    background-color: #10a8ab;
-    height: 50px;
-    width: 150px;
-    margin: 10px;
-    padding: 0px 10px;
-    border: solid 1px #394165;
-    border-radius: 5px;
-}                                                               
+ }
+ 
+
+.subscribe-form {
+    background: #1fec86;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+ }  
+form {
+    
+}                                                     
 .email-form {
-    height: 30px;
-    margin: 20px 0px;
-    padding: 10px 20px;
+    height: 10px;
+    margin: 0px 0px;
+    padding: 10px 10px;
     color: white;
     border: solid 2px #10a8ab;
     border-radius: 10px;
     background-color: #4a5072;
+    
 }
+
+.subscribe-button {
+    background-color: #10a8ab;
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    padding: 0px 0px;
+    border: solid 1px #394165;
+    border-radius: 5px;
+
+}                                  
+
+
+
 .sign-in {
     background-color: #394165;
     /*background: mediumvioletred;*/
