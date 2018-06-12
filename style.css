@@ -448,7 +448,7 @@ button:hover {
     border-top: solid 2px yellow;
 }
 .icon-mini {
-    height: 15px;
+    height: 20px;
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -638,6 +638,12 @@ button:hover {
     border-radius: 5px;
     background-color: #50597b; 
     display: inline-block;
+}
+input::placeholder {
+    color: white;
+}
+.password-form::placeholder {
+    color: #9099b7;
 }
 .subscribe-button {
     background-color: #10a8ab;
