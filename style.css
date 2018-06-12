@@ -14,7 +14,7 @@ header{
     background-color: #394165;
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .top-menu-items {
     display: flex;
@@ -65,34 +65,28 @@ h3 {
 .avatar img {
     width: 50px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 50%;
     border: solid 7px #4a5072; 
 }                                                       
 .columns {
-    width: 1000px;
-    height: 400px;
+    width: 1020px;
     position: absolute;
     top: 230px;
     display: flex;
-
 } 
 .column {
     /*background-color: #dcf876;*/
     flex: 1;
     width: 310px;
-    height: 1600px;
     flex-direction: column;
     display: flex;
-    margin-right: 2em;
-
+    margin-right: 1em;
+    margin-left: 1em;
 }
 .left-menu-block {
 
     display: inline-block;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 5px;
 } 
 .ellipse {
     position: absolute;
@@ -111,15 +105,14 @@ h3 {
     background-color: #e64c65;
 }
 .left-menu-top-part {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: #10a8ab;
     height: 50px;
     padding: 0px 0px 0px 0px;  
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .left-menu-items {
     height: 50px;
@@ -130,8 +123,7 @@ h3 {
     background-color: #394165;
 } 
 .left-menu-items img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
     margin-right: 10px;
     margin-left: 5px;
 }
@@ -141,21 +133,20 @@ h3 {
     cursor: pointer;
 }
 .left-item-bottom {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .left-item-bottom:active {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .left-circle-block {
     display: inline-block;
     background-color: #394165;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0px 0px 0px 0px;
     margin-top: 30px;
-    border-bottom: solid 1px #1F253d;
-    
+    border-bottom: solid 1px #1F253d;  
 }
 .audience {
     height: 60px;
@@ -198,7 +189,6 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 20px 0px 0px 0px;
-
 }
 .year {
     color: #4a5072;
@@ -249,43 +239,26 @@ h3 {
     align-items: center;
     padding: 10px 0px 0px 0px;
 }
-
-
-
-
-
-
-
-
 .chart {
     display: inline-block;
-    /*position: relative;*/
-    /*background-color: #394165;*/
-    background: rgb(228, 231, 52);
-    /*height: 350px;*/
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 5px;
     padding: 0px 0px 0px 0px;
     border-bottom: solid 1px #1F253d;
     margin-top: 30px;
 }
 .chart-img img{
-    height: 195px;
+    width: 310px;
     background: turquoise;
-   /*border: solid 2px #4a5072; */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .chart-bottom {
     background: #394165;
-   /*border: solid 2px #4a5072; */
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .chart-buttons {
     padding: 20px 10px;
@@ -307,7 +280,6 @@ button {
     color: white;
     border: solid 1px #10a8ab;
     outline: none;
-    
 }
 button:hover {
     cursor: pointer;
@@ -317,24 +289,20 @@ button:hover {
     padding: 0px 0px 30px 0px;
 }
 .chart-text {
-padding: 0px 0px 0px 30px;
-margin-top: 0px;
-display: flex;
-align-items: center;
+    padding: 0px 0px 0px 30px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
 }
 .red-block {
     background: #eb5461;
-    
 }
 .red-block:hover {
     background: #eb546171;
 }
 .video {
-    width: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px; 
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    width: 310px;
+    border-radius: 5px;
     padding: 0px 0px 0px 0px;
     border-bottom: solid 1px #1F253d;
     margin-top: 30px; 
@@ -345,10 +313,11 @@ align-items: center;
 }
 .social-blocks-top {
     display: flex;
+    justify-content: center;
 }
 .social-block-top img {
-    width: 75px;
-    height: 75px;
+    width: 78px;
+    height: 78px;
     margin-right: 0px;
     margin-left: 0px;
     background:  #394165;
@@ -360,7 +329,7 @@ align-items: center;
     padding: 0 0px;
 }
 .fb-top img {
-    border-top-left-radius: 10px;
+    border-top-left-radius: 5px;
     background: #3667b4;
 }
 .twitter-top img {
@@ -370,14 +339,15 @@ align-items: center;
     background: #d15963;
 }
 .mail-top img {
-    border-top-right-radius: 10px; 
+    border-top-right-radius: 5px; 
     background: #50587c;
 }
 .social-blocks-bottom {
     display: flex;
+    justify-content: center;
 }
 .social-block-bottom {
-    width: 75px;
+    width: 78px;
     height: 50px;
     margin-right: 0px;
     margin-left: 0px;
@@ -388,7 +358,7 @@ align-items: center;
     padding: 10px 0px;
 }
 .fb-bottom {
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 5px;
     background: #204c95;
 }
 .twitter-bottom {
@@ -398,30 +368,15 @@ align-items: center;
     background: #c53244;
 }
 .mail-bottom {
-    border-bottom-right-radius: 10px; 
+    border-bottom-right-radius: 5px; 
     background: #363e63;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .center-foto {
     background-color: #394165;
-    /*background: mediumvioletred;*/
-    /*height: 350px;*/
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     padding: 0px 0px 0px 0px;
     border-bottom: solid 1px #1F253d;
-    
 }
 .foto-block {
     height: 150px;
@@ -433,25 +388,19 @@ align-items: center;
     margin-top: 20px;
 }
 .big-foto img{
-    /* position: relative;*/
     padding: 0px 0px 0px 0px;
     height: 130px;
     border-radius: 50%;
     border: solid 4px #515c7a;
-    
 }
 .text-block {
-    /*position: relative;*/
     padding: 0px 0px 0px 0px;
     margin: 0px;
-    /*border: solid 2px rgb(38, 201, 86);*/
 }
  .text-foto-bottom {
     position: relative;
     padding: 0px 0px 0px 0px;
     margin: 10px;
-    /*border: solid 5px rgb(38, 201, 86);*/
-    /*height: 100px;*/
     display: flex;
     justify-content: center;
     align-items: center;     
@@ -465,7 +414,6 @@ align-items: center;
     display: flex;
 }
 .center-color-block {
-    /* background-color: #394165;*/  
     height: 80px;
     width: 25%;
     background-color: #1fec86;
@@ -478,13 +426,12 @@ align-items: center;
     background-color: #4a5072;
     height: 60px;
     width: 110px;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 5px;
     padding: 0px 0px 0px 0px;
     border-top: solid 2px red;
     border-right: solid 1px #1F253d;
 }
 .center-color-green {
-   
     background-color: #4a5072;
     height: 60px;
     width: 98px;
@@ -493,11 +440,10 @@ align-items: center;
     border-right: solid 1px #1F253d;
 }
 .center-color-yellow {
-    
     background-color: #4a5072;
     height: 60px;
     width: 110px;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 5px;
     padding: 0px 0px 0px 0px;
     border-top: solid 2px yellow;
 }
@@ -506,22 +452,15 @@ align-items: center;
     margin-right: 5px;
     margin-left: 5px;
 }
-
-
-
-
 .forecast {
 /*сам блок*/
     margin-top: 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 5px;
     padding: 0px 0px 0px 0px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
 }
 .place {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: #cc324c;
     height: 50px;
     padding: 0px 0px 0px 0px;  
@@ -548,12 +487,11 @@ align-items: center;
 .weather img{
     height: 70px;
     padding-left: 30px;
-   
 }
 .week {
     height: 50px;
     padding: 0px 0px 0px 10px;
-    margin-top: 1px;
+    margin-bottom: 1px;
     background-color: #394165;
     display: flex;
     align-items: center;
@@ -564,36 +502,31 @@ align-items: center;
     cursor: pointer;
 }
 .weekend {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .weekend:hover {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .tweets {
 /*сам блок*/
     margin-top: 30px;
-    background: rgb(243, 160, 225);
-    /*height: 320px;*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 0px 0px 0px 0px;
-    /*border-bottom: solid 1px #1F253d;*/
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .latest {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: #37a9dd;
     height: 50px;
     padding: 0px 0px 0px 0px;  
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .tweet-text {
     height: 100px;
@@ -602,12 +535,8 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: solid 1px #1F253d;
+    margin-bottom: 1px;
 }
-
-
-
-
 .sharing {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -621,13 +550,13 @@ align-items: center;
     display: flex;
     align-items: center;
     padding: 0 0px;
+    border-radius: 5px;
 }
 .fb-icon img {
     width: 50px;
     height: 50px;
     margin-right: 0px;
     margin-left: 0px;
-    
 }
 .twitter-icon {
     background: #38a9d1;
@@ -635,6 +564,7 @@ align-items: center;
     display: flex;
     align-items: center;
     padding: 0 0px;
+    border-radius: 5px;
 }
 .twitter-icon img {
     width: 50px;
@@ -648,6 +578,7 @@ align-items: center;
     display: flex;
     align-items: center;
     padding: 0 0px;
+    border-radius: 5px;
 }
 .google-icon img {
     width: 50px;
@@ -666,39 +597,22 @@ align-items: center;
 } 
 .share-fb {
     background: #3667b4;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .share-tw {
     background: #51c4f3;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .share-google {
     background: #d15963;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  .subscribe {
     background-color: #394165;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0px 0px 0px 0px;
     display: inline-block;
  }
@@ -745,7 +659,7 @@ align-items: center;
 }
 .sign-in {
     background-color: #394165;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0px 0px 0px 0px;
     border-bottom: solid 1px #1F253d;
     margin-top: 30px;
@@ -766,7 +680,6 @@ align-items: center;
 .password-form {
     margin-top: 20px;
     padding: 15px 10px 15px 30px;  
-    color: #9099b7;
     font-size: 15px;
     border: solid 1px #1f253d;
     border-radius: 5px;
@@ -780,72 +693,85 @@ align-items: center;
     margin-top: 20px;
     padding: 20px 10px 20px 10px;
     background-color: #3468af;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}   
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .download-upload {
     background-color: #394165;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 20px 20px 20px 0px;
-    border-bottom: solid 1px #1F253d; 
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
     margin-top: 30px;
 } 
-.download {
-
-} 
-.upload {
-
-} 
-.download-pic {
-
-}    
-.upload-pic {
-
+.download-upload-blocks {
+    padding: 10px 0px 0px 0px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.download-upload-text {
+    padding: 10px 0px 0px 0px;  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }  
 .download-pic-green {
-    width: 70px;
+    width: 200px;
+    height: 20px;
     background: #10a8ab;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }  
 .download-pic-gray {
     width: 50px;
+    height: 20px;
     background: #4a5072;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 } 
 .upload-pic-blue {
     background: #63d7fa;
-    width: 50px;
+    width: 100px;
+    height: 20px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 .upload-pic-gray {
     background: #4a5072;
-    width: 70px;
+    width: 150px;
+    height: 20px;
     background: #4a5072;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }  
+.download-upload-icon {
+    height: 15px;
+    padding: 0px 10px 0px 20px;        
+}
+.left-text {
+    height: 15px;
+    padding: 0px 0px 0px 0px;
+}
+.right-text {
+    position: absolute;
+    left: 910px;
+    height: 20px;
+}
 .wednesday {
     background-color: #394165;
-    border-radius: 10px;
+    border-radius: 5px;
     border-bottom: solid 1px #1F253d;
     margin-top: 30px;
 }
 .top-wednesday {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: #1a4e95;
     height: 50px;
     padding: 0px 0px 0px 0px;  
     display: flex;
     align-items: center;
     justify-content: center;
-
 }   
 .date-right {
     padding: 20px 0px 0px 0px;
@@ -855,7 +781,6 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-
 } 
 .blue {
     background: #3468af;
@@ -874,13 +799,13 @@ align-items: center;
 }
 .calendar {
     background-color: #394165;
-    border-radius: 10px;
+    border-radius: 5px;
     border-bottom: solid 1px #1F253d;
     margin-top: 30px;
 }   
 .top-calendar {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background: #3468af;
     height: 50px;
     padding: 0px 0px 0px 0px;  
