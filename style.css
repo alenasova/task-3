@@ -90,7 +90,7 @@ h3 {
 } 
 .ellipse {
     position: absolute;
-    left: 250px;
+    left: 270px;
     border-radius: 10px;
     background: #4a5072;
     height: 20px;
@@ -289,10 +289,21 @@ button:hover {
     padding: 0px 0px 30px 0px;
 }
 .chart-text {
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 10px 30px;
     margin-top: 0px;
+    margin-right: 20px;
     display: flex;
-    align-items: center;
+}
+.text-gray {
+    color: #9099b7;
+    padding-left: 10px;
+}
+.number-right {
+    padding-left: 0px;
+}
+.red-font {
+    color: #eb5461;
+    padding-left: 135px;
 }
 .red-block {
     background: #eb5461;
@@ -316,14 +327,10 @@ button:hover {
     justify-content: center;
 }
 .social-block-top img {
-    width: 78px;
-    height: 78px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background:  #394165;
+    width: 75px;
+    background: #394165;
 }
 .social-block-top {
-    height: 100%;
     display: flex;
     align-items: center;
     padding: 0 0px;
@@ -347,11 +354,7 @@ button:hover {
     justify-content: center;
 }
 .social-block-bottom {
-    width: 78px;
-    height: 50px;
-    margin-right: 0px;
-    margin-left: 0px;
-    height: 100%;
+    width: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -490,16 +493,31 @@ button:hover {
 }
 .week {
     height: 50px;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 30px;
     margin-bottom: 1px;
     background-color: #394165;
     display: flex;
     align-items: center;
+    justify-content: left;
 }
 .week:hover {
     background-color: #50597b;
     height: 50px;
     cursor: pointer;
+}
+.sunday:hover {
+    color: red;
+}
+.weather-right {
+    position: absolute;
+    left: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-right img{
+    height: 20px;
+    padding-left: 10px;
 }
 .weekend {
     border-bottom-left-radius: 5px;
@@ -512,11 +530,7 @@ button:hover {
 .tweets {
 /*сам блок*/
     margin-top: 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 0px 0px 0px 0px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
 }
 .latest {
     border-top-left-radius: 5px;
@@ -528,6 +542,9 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
+.latest img{
+    height: 45px;
+}
 .tweet-text {
     height: 100px;
     padding: 10px 30px 0px 30px; 
@@ -536,6 +553,8 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin-bottom: 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .sharing {
     margin-top: 30px;
@@ -629,11 +648,12 @@ button:hover {
     justify-content: center;
  }                                        
 .email-enter {
-    height: 10px;
-    margin: 0px;
-    padding: 15px 10px 15px 30px;  
+    width: 250px;
+    height: 40px;
+    margin: 10px 0px;
+    text-indent: 50px;
+    /*padding: 15px 10px 15px 30px;  */
     color: rgb(121, 24, 24);
-    font-size: 15px;
     border: solid 1px #10a8ab;
     border-radius: 5px;
     background-color: #50597b; 
@@ -658,10 +678,10 @@ input::placeholder {
 .subscribe-button:hover {
     background-color: #10a9ab80;
 }
-.mail-icon {
+.input-icon {
     height: 30px;
     position: absolute;
-    right: 75px;
+    right: 250px;
 }
 .sign-in {
     background-color: #394165;
@@ -684,9 +704,11 @@ input::placeholder {
     background-color: #e64c6679;
 }
 .password-form {
-    margin-top: 20px;
-    padding: 15px 10px 15px 30px;  
-    font-size: 15px;
+    /*margin-top: 20px;*/
+    width: 250px;
+    height: 40px;
+    text-indent: 50px;
+    /*padding: 15px 10px 15px 30px;*/
     border: solid 1px #1f253d;
     border-radius: 5px;
     background-color: #50597b; 
@@ -697,20 +719,24 @@ input::placeholder {
 }
 .sign-in-facebook {
     margin-top: 20px;
-    padding: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
     background-color: #3468af;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.sign-in-facebook img {
+    height: 30px;
+    padding-right: 5px;
+}
 .download-upload {
     background-color: #394165;
     border-radius: 5px;
-    padding: 20px 20px 20px 20px;
+    padding: 30px 20px 30px 20px;
     display: inline-block;
     margin-top: 30px;
 } 
 .download-upload-blocks {
-    padding: 10px 0px 0px 0px;  
+    padding: 15px 0px 0px 0px;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -778,7 +804,12 @@ input::placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
-}   
+}  
+.top-wednesday img { 
+    height: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
 .date-right {
     padding: 20px 0px 0px 0px;
     font-size: 100px;
@@ -818,6 +849,11 @@ input::placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.top-calendar img { 
+    height: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 .light-blue {
     color: #35aadc;
