@@ -84,13 +84,10 @@ h3 {
     margin-left: 1em;
 }
 .left-menu-block {
-
     display: inline-block;
     border-radius: 5px;
 } 
 .ellipse {
-    position: absolute;
-    left: 270px;
     border-radius: 10px;
     background: #4a5072;
     height: 20px;
@@ -116,11 +113,10 @@ h3 {
 }
 .left-menu-items {
     height: 50px;
-    padding: 0px 10px 0px 10px;
-    margin-top: 1px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 1px;
     display: flex;
     align-items: center;
-    background-color: #394165;
 } 
 .left-menu-items img {
     width: 25px;
@@ -136,7 +132,7 @@ h3 {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.left-item-bottom:active {
+.left-item-bottom:hover {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -156,7 +152,6 @@ h3 {
     justify-content: center;
 }
 .diagram {
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,6 +306,19 @@ button:hover {
 .red-block:hover {
     background: #eb546171;
 }
+.data {
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.group {
+    display: flex;
+}
+.group-left {
+    padding-left: 10px;
+}
 .video {
     width: 310px;
     border-radius: 5px;
@@ -456,7 +464,6 @@ button:hover {
     margin-left: 5px;
 }
 .forecast {
-/*сам блок*/
     margin-top: 30px;
     border-radius: 5px;
     padding: 0px 0px 0px 0px;
@@ -491,33 +498,22 @@ button:hover {
     height: 70px;
     padding-left: 30px;
 }
-.week {
+.wrapper {
     height: 50px;
-    padding: 0px 0px 0px 30px;
     margin-bottom: 1px;
     background-color: #394165;
     display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 10px;
     align-items: center;
-    justify-content: left;
 }
-.week:hover {
+.wrapper:hover {
     background-color: #50597b;
     height: 50px;
     cursor: pointer;
 }
 .sunday:hover {
     color: red;
-}
-.weather-right {
-    position: absolute;
-    left: 590px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.weather-right img{
-    height: 20px;
-    padding-left: 10px;
 }
 .weekend {
     border-bottom-left-radius: 5px;
@@ -527,8 +523,11 @@ button:hover {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.w-right img{
+    height: 20px;
+    padding-left: 10px;
+}
 .tweets {
-/*сам блок*/
     margin-top: 30px;
     border-radius: 5px;
 }
@@ -652,7 +651,6 @@ button:hover {
     height: 40px;
     margin: 10px 0px;
     text-indent: 50px;
-    /*padding: 15px 10px 15px 30px;  */
     color: rgb(121, 24, 24);
     border: solid 1px #10a8ab;
     border-radius: 5px;
@@ -704,11 +702,9 @@ input::placeholder {
     background-color: #e64c6679;
 }
 .password-form {
-    /*margin-top: 20px;*/
     width: 250px;
     height: 40px;
     text-indent: 50px;
-    /*padding: 15px 10px 15px 30px;*/
     border: solid 1px #1f253d;
     border-radius: 5px;
     background-color: #50597b; 
@@ -731,22 +727,23 @@ input::placeholder {
 .download-upload {
     background-color: #394165;
     border-radius: 5px;
-    padding: 30px 20px 30px 20px;
+    padding: 20px 10px 20px 10px;
     display: inline-block;
     margin-top: 30px;
 } 
 .download-upload-blocks {
-    padding: 15px 0px 0px 0px;  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}  
-.download-upload-text {
     padding: 10px 0px 0px 0px;  
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-}  
+    justify-content: center;
+} 
+.download-upload-text {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 0px;
+    align-items: center;
+} 
 .download-pic-green {
     width: 200px;
     height: 20px;
@@ -779,15 +776,6 @@ input::placeholder {
 .download-upload-icon {
     height: 15px;
     padding: 0px 10px 0px 20px;        
-}
-.left-text {
-    height: 15px;
-    padding: 0px 0px 0px 0px;
-}
-.right-text {
-    position: absolute;
-    left: 910px;
-    height: 20px;
 }
 .wednesday {
     background-color: #394165;
