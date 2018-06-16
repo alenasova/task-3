@@ -106,7 +106,7 @@ h3 {
 .number {
     font-size: 10px;
 }
-.red {
+.wrapper:hover .number {
     background-color: #e64c65;
 }
 .left-menu-top-part {
@@ -132,7 +132,7 @@ h3 {
     background-size: 20px;
     width: 30px;
 }
-.mail-ic:hover {
+.wrapper:hover .mail-ic{
     background: url("img/email.png") no-repeat left; 
     background-size: 20px;
 }
@@ -141,7 +141,7 @@ h3 {
     background-size: 20px;
     width: 30px;
 }
-.invites-ic:hover {
+.wrapper:hover .invites-ic {
     background: url("img/fly.png") no-repeat left; 
     background-size: 20px;
 }
@@ -150,7 +150,7 @@ h3 {
     background-size: 20px;
     width: 30px;
 }
-.events-ic:hover {
+.wrapper:hover .events-ic {
     background: url("img/events.png") no-repeat left; 
     background-size: 20px;
 }
@@ -159,7 +159,7 @@ h3 {
     background-size: 20px;
     width: 30px;
 }
-.settings-ic:hover {
+.wrapper:hover .settings-ic {
     background: url("img/setting.png") no-repeat left; 
     background-size: 20px;
 }
@@ -168,7 +168,7 @@ h3 {
     background-size: 20px;
     width: 30px;
 }
-.statistic-ic:hover {
+.wrapper:hover .statistic-ic {
     background: url("img/statistic.png") no-repeat left; 
     background-size: 20px;
 }
