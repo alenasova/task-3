@@ -421,7 +421,7 @@ button:hover {
     height: 40px;
     cursor: pointer;
 }
-.sunday:hover {
+.wrapper:hover .red-day {
     color: #e64c65;
 }
 .weekend {
