@@ -11,10 +11,8 @@ header{
     height: 60px;
     position: absolute;
     top: 65px;
-    background-color: #394165;
     display: flex;
     justify-content: space-between;
-    border-radius: 5px;
 }
 .center {
     display: flex;
@@ -55,7 +53,6 @@ h3 {
 .red-circle {
     position: relative;
     border-radius: 50%;
-    background-color: #e64c65;
     width: 16px;
     height: 16px;
     top: -9px;
@@ -84,18 +81,16 @@ h3 {
     display: flex;
 } 
 .column {
-    /*background-color: #dcf876;*/
     flex: 1;
     width: 200px;
     flex-direction: column;
     display: flex;
     margin-right: 7.5px;
     margin-left: 7.5px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .left-menu-block {
     display: inline-block;
-    border-radius: 5px;
 } 
 .ellipse {
     border-radius: 10px;
@@ -178,8 +173,6 @@ h3 {
 }
 .left-circle-block {
     display: inline-block;
-    background-color: #394165;
-    border-radius: 5px;
     margin-top: 15px;
 }
 .outer-circle {
@@ -214,9 +207,8 @@ h3 {
     margin-top: 30px;
 }
 .left-color-block {
-    background-color: #394165;
+    background: #4a5072;
     width: 25%;  
-    padding: 0px 0px 0px 0px;
 }
 .left-color-red {
     border-bottom-left-radius: 10px;
@@ -244,9 +236,7 @@ h3 {
     padding: 0px 0px 10px 0px;
 }
 .chart {
-    background: #394165;
     margin-top: 15px;
-    border-radius: 5px;
 }
 .chart-img img{
     width: 202px;
@@ -273,12 +263,6 @@ button:hover {
     background-color: #394165;
     border: solid 1px #9099b7;
 }
-.red-font {
-    color: #eb5461;
-}
-.red-button {
-    background: #eb5461;
-}
 .red-button:hover {
     background: #eb546171;
 }
@@ -302,7 +286,6 @@ button:hover {
 }
 .video {
     width: 200px;
-    border-radius: 5px;
     margin-top: 15px; 
 }
 .timekillers {
@@ -310,7 +293,6 @@ button:hover {
 }
 .social-block-top img {
     width: 50px;
-    background: #394165;
 }
 .social-block-top {
     display: flex;
@@ -350,7 +332,6 @@ button:hover {
     background: #363e63;
 }
 .center-foto {
-    background-color: #394165;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -383,22 +364,20 @@ button:hover {
 }
 .center-color-block {
     height: 40px;
+    background-color: #4a5072;
 }
 .center-color-red {
-    background-color: #4a5072;
     width: 110px;
     border-bottom-left-radius: 5px;
     border-top: solid 2px #e64c65;
     border-right: solid 1px #1F253d;
 }
 .center-color-green {
-    background-color: #4a5072;
     width: 98px;
     border-top: solid 2px #10a8ab;
     border-right: solid 1px #1F253d;
 }
 .center-color-yellow {
-    background-color: #4a5072;
     width: 110px;
     border-bottom-right-radius: 5px;
     border-top: solid 2px #f3b562;
@@ -410,16 +389,12 @@ button:hover {
 }
 .forecast {
     margin-top: 15px;
-    border-radius: 5px;
 }
 .place {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-color: #cc324c;
     height: 40px;
-}
-.red-block {
-    background: #eb5461;
 }
 .date {
     font-size: 14px;
@@ -436,7 +411,6 @@ button:hover {
 .wrapper {
     height: 40px;
     margin-bottom: 1px;
-    background-color: #394165;
     display: flex;
     justify-content: space-between;
     padding: 0px 10px 0px 10px;
@@ -456,7 +430,6 @@ button:hover {
 }
 .tweets {
     margin-top: 15px;
-    border-radius: 5px;
 }
 .latest {
     border-top-left-radius: 5px;
@@ -469,7 +442,6 @@ button:hover {
 }
 .gray-block {
     padding: 20px 20px 15px 20px; 
-    background: #394165; 
     margin-bottom: 1px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -497,7 +469,6 @@ span{
 .fb-icon {
     background: #204c95;
     height: 100%;
-    border-radius: 5px;
 }
 .fb-icon img {
     width: 40px;
@@ -508,7 +479,6 @@ span{
 .twitter-icon {
     background: #38a9d1;
     height: 100%;
-    border-radius: 5px;
 }
 .twitter-icon img {
     width: 40px;
@@ -517,7 +487,6 @@ span{
 .google-icon {
     background: #c53244;
     height: 100%;
-    border-radius: 5px;
 }
 .google-icon img {
     width: 40px;
@@ -543,9 +512,6 @@ span{
     border-bottom-right-radius: 5px;
 }
  .subscribe {
-    background-color: #394165;
-    border-radius: 5px;
-    padding: 0px 0px 0px 0px;
     display: inline-block;
  }
  .name-block {
@@ -559,7 +525,6 @@ span{
     text-indent: 40px;
     color: rgb(121, 24, 24);
     border: solid 1px #10a8ab;
-    border-radius: 5px;
     background-color: #50597b; 
     display: inline-block;
 }
@@ -590,12 +555,9 @@ input::placeholder {
     right: 165px;
 }
 .sign-in {
-    background-color: #394165;
-    border-radius: 5px;
     margin-top: 15px;
 } 
 .sign-in-button {
-    background-color: #e64c65;
     margin-top: 20px;
     margin-bottom: 15px;
 } 
@@ -607,7 +569,6 @@ input::placeholder {
     height: 30px;
     text-indent: 40px;
     border: solid 1px #1f253d;
-    border-radius: 5px;
     background-color: #50597b; 
 }
 .forgot-password {
@@ -622,8 +583,6 @@ input::placeholder {
     border-bottom-right-radius: 5px;
 }
 .download-upload {
-    background-color: #394165;
-    border-radius: 5px;
     padding: 20px 10px 0px 10px;
     display: inline-block;
     margin-top: 15px;
@@ -663,7 +622,6 @@ input::placeholder {
     background: #4a5072;
     width: 110px;
     height: 15px;
-    background: #4a5072;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }  
@@ -671,8 +629,6 @@ input::placeholder {
     height: 15px;  
 }
 .wednesday {
-    background-color: #394165;
-    border-radius: 5px;
     margin-top: 15px;
 }
 .top-wednesday {
@@ -703,8 +659,6 @@ input::placeholder {
     background-color: #4fc4f675;
 }
 .calendar {
-    background-color: #394165;
-    border-radius: 5px;
     margin-top: 15px;
     padding-bottom: 10px;
 }   
@@ -720,15 +674,8 @@ input::placeholder {
     margin-right: 35px;
     margin-left: 35px;
 }
-.light-blue {
-    color: #4fc5f7;
-}
-.light-gray {
-    color: #9099b7;
-}
 .mini-red-circle {
     border-radius: 50%;
-    background-color: #e64c65;
     padding: 7px 0px 7px 0px;  
 }
 table {
@@ -739,4 +686,22 @@ table {
 }
 th {
     padding: 8px 8px; 
+}
+.light-blue {
+    color: #4fc5f7;
+}
+.light-gray {
+    color: #9099b7;
+}
+.background-red {
+    background-color: #e64c65;
+}
+.background-dark-gray {
+    background-color: #394165;
+}
+.red-font {
+    color: #eb5461;
+}
+.calendar, .wednesday, .download-upload, .sign-in, .email-enter, .password-form, .subscribe, .google-icon, .twitter-icon, .fb-icon, .tweets, .forecast, .video, .chart, .left-circle-block, header {
+    border-radius: 5px;
 }
