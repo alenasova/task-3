@@ -345,7 +345,7 @@ button:hover {
     font-size: 15px;
     color: #9099b7;
     border: solid 1px #9099b7;
-    text-align: center;
+    padding-bottom: 1px;
 }
 .big-foto img{
     height: 100px;
