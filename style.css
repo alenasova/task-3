@@ -4,7 +4,7 @@ body {
     justify-content: center;
     color: #ffffff;
     font-family: 'Ubuntu', arial;
-    font-size: 12px;
+    font-size: 11px;
 } 
 header{
     width: 640px;
@@ -23,14 +23,15 @@ header{
     display: flex;
 }
 .top-menu-item img {
-    width: 20px;
+    /*width: 20px;*/
     height: 20px;
-    margin-right: 10px;
-    margin-left: 5px;
+    padding-right: 10px;
 }
 .top-menu-item {
     height: 100%;
-    padding: 0 15px;
+    padding-right: 18px;
+    padding-left: 15px;
+    font-size: 12px;
 }
 .top-menu-item:hover {
     background-color: #4a5072;
@@ -38,14 +39,14 @@ header{
     cursor: pointer;
 }
 .me {
-    padding-right: 10px; 
+    padding-right: 15px; 
 }
 .me img {
     width: 20px;
     height: 20px;
 }
 h2 {
-    font: 15px;
+    font: 14px;
 }
 h3 {
     font: 12px;
@@ -55,13 +56,9 @@ h3 {
     border-radius: 50%;
     width: 16px;
     height: 16px;
-    top: -9px;
-    right: -4px;
-} 
-.five {
-    text-align: center; 
+    top: 10px;
+    right: 163px;
     font-size: 11px;
-    padding-top: 2px;
 }
 .avatar {
     float: right;
@@ -179,8 +176,8 @@ h3 {
     border-radius: 50%;
     width: 140px;
     height: 140px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     background-color: transparent;
     background-image:                                           
                       linear-gradient(305deg, #15a6a9 50%, transparent 50%),
@@ -314,7 +311,7 @@ button:hover {
 }
 .social-block-bottom {
     width: 50px;
-    height: 20px;
+    height: 15px;
     padding: 5px 0px;
 }
 .fb-bottom {
@@ -355,9 +352,10 @@ button:hover {
     border-radius: 50%;
     border: solid 4px #515c7a;
 }
- .text-foto-bottom {
+.text-foto-bottom {
     margin-bottom: 20px;
     text-align: center;
+    padding: 0px 15px;
 } 
 .center-color-blocks {
     display: flex;
@@ -369,18 +367,18 @@ button:hover {
 .center-color-red {
     width: 110px;
     border-bottom-left-radius: 5px;
-    border-top: solid 2px #e64c65;
+    border-top: solid 3px #e64c65;
     border-right: solid 1px #1F253d;
 }
 .center-color-green {
     width: 98px;
-    border-top: solid 2px #10a8ab;
+    border-top: solid 3px #10a8ab;
     border-right: solid 1px #1F253d;
 }
 .center-color-yellow {
     width: 110px;
     border-bottom-right-radius: 5px;
-    border-top: solid 2px #f3b562;
+    border-top: solid 3px #f3b562;
 }
 .icon-mini {
     height: 20px;
@@ -397,16 +395,16 @@ button:hover {
     height: 40px;
 }
 .date {
-    font-size: 14px;
-    padding: 15px 0px 0px 30px;
+    font-size: 12px;
+    padding: 10px 0px 0px 30px;
 }
 .weather {
-    font-size: 42px;
-    padding: 0px 0px 10px 0px;
+    font-size: 44px;
 }
 .weather img{
     height: 50px;
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-bottom: 15px;
 }
 .wrapper {
     height: 40px;
@@ -512,7 +510,7 @@ span{
     border-bottom-right-radius: 5px;
 }
  .subscribe {
-    display: inline-block;
+    margin-top: 0px;
  }
  .name-block {
     height: 40px;
@@ -520,13 +518,12 @@ span{
 }         
 .email-enter {
     width: 170px;
-    height: 30px;
-    margin: 10px 0px;
-    text-indent: 40px;
+    /*height: 30px;*/
+    padding: 10px 0px;
+    text-indent: 35px;
     color: rgb(121, 24, 24);
     border: solid 1px #10a8ab;
     background-color: #50597b; 
-    display: inline-block;
 }
 input::placeholder {
     color: white;
@@ -538,12 +535,12 @@ input::placeholder {
 .subscribe-button {
     background-color: #10a8ab;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
 }      
 .subscribe-button, .sign-in-button, .add-event {
     width: 110px;
     height: 35px;
-    font-size: 12px;
+    font-size: 11px;
     border-radius: 3px;
 }                             
 .subscribe-button:hover {
@@ -566,8 +563,9 @@ input::placeholder {
 }
 .password-form {
     width: 170px;
-    height: 30px;
-    text-indent: 40px;
+    /*height: 30px;*/
+    padding: 10px 0px;
+    text-indent: 35px;
     border: solid 1px #1f253d;
     background-color: #50597b; 
 }
@@ -588,11 +586,11 @@ input::placeholder {
     margin-top: 15px;
 } 
 .download-upload-text {
-    height: 50px;
     width: 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0px 10px 0px;
 } 
 .download-pic-green {
     width: 140px;
@@ -643,7 +641,7 @@ input::placeholder {
     margin-left: 30px;
 }
 .date-right {
-    font-size: 80px;
+    font-size: 90px;
     background: #3468af;
 } 
 .blue {
@@ -660,14 +658,12 @@ input::placeholder {
 }
 .calendar {
     margin-top: 15px;
-    padding-bottom: 10px;
 }   
 .top-calendar {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background: #3468af;
     height: 40px;
-    margin-bottom: 10px;
 }
 .top-calendar img { 
     height: 20px;
@@ -682,7 +678,7 @@ table {
     display: inline;
     border-collapse: collapse; 
     font-size: 10px;
-    padding: 5px;
+    padding: 10px 5px 15px 5px;
 }
 th {
     padding: 8px 8px; 
@@ -704,4 +700,7 @@ th {
 }
 .calendar, .wednesday, .download-upload, .sign-in, .email-enter, .password-form, .subscribe, .google-icon, .twitter-icon, .fb-icon, .tweets, .forecast, .video, .chart, .left-circle-block, header {
     border-radius: 5px;
+}
+.margin-top {
+    margin-top: 15px;
 }
