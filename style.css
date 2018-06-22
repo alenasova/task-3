@@ -44,6 +44,7 @@ header{
 .me img {
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 h2 {
     font: 14px;
@@ -69,7 +70,7 @@ h3 {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    border: solid 5px #4a5072; 
+    border: solid 3px #4a5072; 
 }                                                       
 .columns {
     width: 650px;
@@ -116,7 +117,6 @@ h3 {
 } 
 .wrapper:hover {
     background-color: #50597b;
-    height: 40px;
     cursor: pointer;
 }
 .mail-ic {
@@ -345,7 +345,6 @@ button:hover {
     font-size: 15px;
     color: #9099b7;
     border: solid 1px #9099b7;
-    padding-bottom: 1px;
 }
 .big-foto img{
     height: 100px;
@@ -463,6 +462,7 @@ span{
 }
 .share-blocks {
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .fb-icon {
     background: #204c95;
@@ -639,6 +639,7 @@ input::placeholder {
     height: 20px;
     margin-right: 30px;
     margin-left: 30px;
+    cursor: pointer;
 }
 .date-right {
     font-size: 90px;
@@ -669,6 +670,7 @@ input::placeholder {
     height: 20px;
     margin-right: 35px;
     margin-left: 35px;
+    cursor: pointer;
 }
 .mini-red-circle {
     border-radius: 50%;
