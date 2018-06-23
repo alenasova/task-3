@@ -171,13 +171,15 @@ h3 {
 .left-circle-block {
     display: inline-block;
     margin-top: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .outer-circle {
     border-radius: 50%;
     width: 140px;
     height: 140px;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 35px;
     background-color: transparent;
     background-image:                                           
                       linear-gradient(305deg, #15a6a9 50%, transparent 50%),
@@ -201,27 +203,27 @@ h3 {
 }
 .left-color-blocks {
     display: flex;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 .left-color-block {
     background: #4a5072;
     width: 25%;  
 }
 .left-color-red {
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 5px;
     border-top: solid 3px #e64c65;
-    border-right: solid 1px #1F253d;  
+    margin-right: 1px;
 }
 .left-color-green {
     border-top: solid 3px #10a8ab;
-    border-right: solid 1px #1F253d;
+    margin-right: 1px;
 }
 .left-color-yellow {
     border-top: solid 3px #f3b562;
-    border-right: solid 1px #1F253d;
+    margin-right: 1px;
 }
 .left-color-blue {
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 5px;
     border-top: solid 3px #63d7fa;
 }
 .os {
@@ -231,6 +233,12 @@ h3 {
 .os-percent {
     font-size: 15px;
     padding: 0px 0px 10px 0px;
+}
+.over {
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 .chart {
     margin-top: 15px;
@@ -362,17 +370,18 @@ button:hover {
 .center-color-block {
     height: 40px;
     background-color: #4a5072;
+    padding-right: 5px;
 }
 .center-color-red {
     width: 110px;
     border-bottom-left-radius: 5px;
     border-top: solid 3px #e64c65;
-    border-right: solid 1px #1F253d;
+    margin-right: 1px;
 }
 .center-color-green {
     width: 98px;
     border-top: solid 3px #10a8ab;
-    border-right: solid 1px #1F253d;
+    margin-right: 1px;
 }
 .center-color-yellow {
     width: 110px;
@@ -392,6 +401,7 @@ button:hover {
     border-top-right-radius: 5px;
     background-color: #cc324c;
     height: 40px;
+    padding-right: 10px;
 }
 .date {
     font-size: 12px;
@@ -433,6 +443,7 @@ button:hover {
     border-top-right-radius: 5px;
     background-color: #37a9dd;
     height: 40px;
+    padding-right: 10px;
 }
 .latest img{
     height: 35px;
@@ -515,13 +526,13 @@ span{
  .name-block {
     height: 40px;
     padding: 10px 0px 0px 0px;  
-}         
+} 
 .email-enter {
-    width: 170px;
+    width: 125px;
     /*height: 30px;*/
-    padding: 10px 0px;
-    text-indent: 35px;
-    color: rgb(121, 24, 24);
+    padding: 10px 10px 10px 35px;
+    /*text-indent: 0px;*/
+    color: #ffffff;
     border: solid 1px #10a8ab;
     background-color: #50597b; 
 }
@@ -562,10 +573,11 @@ input::placeholder {
     background-color: #e64c6679;
 }
 .password-form {
-    width: 170px;
+    width: 125px;
     /*height: 30px;*/
-    padding: 10px 0px;
-    text-indent: 35px;
+    padding: 10px 10px 10px 35px;
+    /*text-indent: 0px;*/
+    color: #ffffff;
     border: solid 1px #1f253d;
     background-color: #50597b; 
 }
@@ -700,7 +712,7 @@ th {
 .red-font {
     color: #eb5461;
 }
-.calendar, .wednesday, .download-upload, .sign-in, .email-enter, .password-form, .subscribe, .google-icon, .twitter-icon, .fb-icon, .tweets, .forecast, .video, .chart, .left-circle-block, header {
+.calendar, .wednesday, .download-upload, .sign-in, .email-enter, .password-form, .subscribe, .google-icon, .twitter-icon, .fb-icon, .tweets, .forecast, .video, .chart, header {
     border-radius: 5px;
 }
 .margin-top {
