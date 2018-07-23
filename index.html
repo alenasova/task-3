@@ -8,7 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="img/favicon.ico"/>
-        <script src="/script.js"></script>
     </head>
     <body>
         <header class="background-dark-gray">
@@ -106,9 +105,9 @@
                 <div class="chart background-dark-gray">
                     <div class="chart-img"><img src="img/chart.jpg"></div>
                     <div class="chart-buttons center">
-                        <button>Week</button>
-                        <button class="background-red">Month</button>
-                        <button>Year</button>
+                        <button id="b1" class="center">Week (0)</button>
+                        <button id="b2" class="center background-red">Month (0)</button>
+                        <button id="b3" class="center">Year (0)</button>
                     </div>
                     <div class="chart-bottom">
                         <div class="data">
@@ -249,13 +248,13 @@
                 </div>
                 <div class="sharing">
                     <div class="share-blocks">
-                        <div class="fb-icon center"><img src="img/fb.png"><div class="share-text share-fb center">SHARE TO FACEBOOK</div></div>
+                        <div id="b4" class="fb-icon center"><img src="img/fb.png"><div class="share-text share-fb center">SHARE TO FACEBOOK (0)</div></div>
                     </div>
                     <div class="share-blocks">
-                        <div class="twitter-icon center"><img src="img/twitter.png"><div class="share-text share-tw center">SHARE TO TWITTER</div></div> 
+                        <div id="b5" class="twitter-icon center"><img src="img/twitter.png"><div class="share-text share-tw center">SHARE TO TWITTER (0)</div></div> 
                     </div>
                     <div class="share-blocks">
-                        <div class="google-icon center"><img src="img/google.png"><div class="share-text share-google center">SHARE TO GOOGLE+</div></div>
+                        <div id="b6" class="google-icon center"><img src="img/google.png"><div class="share-text share-google center">SHARE TO GOOGLE+ (0)</div></div>
                     </div>
                 </div>             
             </div>
@@ -264,7 +263,7 @@
                     <form id="signup">
                         <div class="name-block center">JOIN&nbspTHE&nbspNEWSLETTER</div>
                         <div class="center"><input type="email" placeholder="yourname@gmail.com" required="" class="email-enter"><img src="img/email-g.png" class="input-icon"></div>		
-                        <div class="center"><button type="submit" class="subscribe-button">SUBSCRIBE</button></div>	
+                        <div class="center"><button type="submit" id="b7" class="subscribe-button">SUBSCRIBE (0)</button></div>	
                     </form>
                 </div>     
                 <div class="sign-in background-dark-gray">
@@ -272,7 +271,7 @@
                         <div class="name-block center">SIGN&nbspIN&nbspTO&nbspYOUR&nbspACCOUNT</div>
                         <div class="center margin-top"><input type="email" placeholder="yourname@gmail.com" required="" class="email-enter"><img src="img/email-g.png" class="input-icon"></div>
                         <div class="center margin-top"><input type="password" placeholder="Password" required="" class="password-form"><img src="img/lock-g.png" class="input-icon"></div>			
-                        <div class="center"><button type="submit" class="sign-in-button background-red">SIGN IN</button></div>	
+                        <div class="center"><button type="submit" id="b8" class="sign-in-button background-red">SIGN IN (0)</button></div>	
                     </form>
                     <div class="center forgot-password">Forgot password?</div>         
                     <div class="center sign-in-facebook"><img src="img/fb_icon.png" class="icon-mini">Sign in with Facebook</div>
@@ -309,7 +308,7 @@
                     <div class="top-wednesday center"><img src="img/back_icon.png">WEDNESDAY<img src="img/play_icon.png"></div>
                     <div class="date-right center padding-top">26</div>
                     <div class="center blue">
-                        <button class="center add-event">ADD EVENT</button> 
+                        <button id="b9" class="center add-event">ADD EVENT (0)</button> 
                     </div>
                 </div> 
                 <div class="calendar background-dark-gray">
@@ -387,5 +386,6 @@
         <footer>
             <div class=""></div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
