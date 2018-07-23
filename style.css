@@ -240,6 +240,12 @@ h3 {
     display: inline-block;
     padding-bottom: 5px;
 }
+.over2 {
+    color: white;
+    font-size: 8px;
+    display: inline-block;
+    vertical-align: top;
+}
 .chart {
     margin-top: 15px;
 }
